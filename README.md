@@ -15,6 +15,7 @@
 使用git下载，[git安装教程:](https://www.cnblogs.com/xiaoliu66/p/9404963.html)
 
 > git clone https://github.com/NRaidS/xslxBookRoom.git
+
 或直接在github网页端下载后直接解压。
 
 ### 依赖库安装
