@@ -39,9 +39,7 @@ clstme.xlsx存放预约信息
 
 项目使用样例视频：[基于py实现的教室预约系统](https://www.bilibili.com/video/BV1K24y1R7Wx/?share_source=copy_web&vd_source=fa6ceda0e61840db504a95bcd25f6d74)
 本项目功能主要有登录，菜单，预约教室，显示目前全部的预约信息，查询所有教室，查询本人预约情况，修改本人预约信息，退出系统
-其功能相互关系如下图所示。
 
-![image](image/menu.png )
 
 
 ### 0、登录
@@ -53,7 +51,7 @@ clstme.xlsx存放预约信息
 
 ### 2、预约教室
 
-![image](image/book.png )
+预约教室
 
 ### 3、显示目前全部的预约信息
 
@@ -66,7 +64,7 @@ clstme.xlsx存放预约信息
 读取clstme.xslx文件，只输出本人预约的信息。
 ### 6、修改本人预约信息
 
-![image](image/change.png )
+修改教室
 
 ### 7、退出系统
 
