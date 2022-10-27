@@ -14,7 +14,7 @@
 
 使用git下载，[git安装教程:](https://www.cnblogs.com/xiaoliu66/p/9404963.html)
 
-> git clone https://github.com/NRaidS/xslxBookRoom.git
+> git clone https://github.com/NRaidS/xlsxBookRoom.git
 
 或直接在github网页端下载后直接解压。
 
@@ -25,6 +25,7 @@
 
 执行以下命令安装依赖:
 >python -m pip install -U pip
+
 >pip install -r requirements.txt
 
 
@@ -36,7 +37,9 @@
 ### 基础表格文件介绍
 
 stuNo.xlsx存放学生学号和姓名
+
 classInfo.xlsx存放班级信息
+
 clstme.xlsx存放预约信息
 
 
@@ -44,7 +47,9 @@ clstme.xlsx存放预约信息
 
 项目使用样例视频：[基于py实现的教室预约系统](https://www.bilibili.com/video/BV1K24y1R7Wx/?share_source=copy_web&vd_source=fa6ceda0e61840db504a95bcd25f6d74)
 本项目功能主要有登录，菜单，预约教室，显示目前全部的预约信息，查询所有教室，查询本人预约情况，修改本人预约信息，退出系统
+其功能相互关系如下图所示。
 
+![image](image/menu.png )
 
 
 ### 0、登录
@@ -56,20 +61,20 @@ clstme.xlsx存放预约信息
 
 ### 2、预约教室
 
-预约教室
+![image](image/book.png )
 
 ### 3、显示目前全部的预约信息
 
-读取clstme.xslx文件并输出成一张图表供查看。
+读取clstme.xlsx文件并输出成一张图表供查看。
 ### 4、查询所有教室
 
-读取classInfo.xslx文件，并将信息输出到控制台。
+读取classInfo.xlsx文件，并将信息输出到控制台。
 ### 5、查询本人预约情况
 
-读取clstme.xslx文件，只输出本人预约的信息。
+读取clstme.xlsx文件，只输出本人预约的信息。
 ### 6、修改本人预约信息
 
-修改教室
+![image](image/change.png )
 
 ### 7、退出系统
 
